@@ -9,25 +9,23 @@
 <div class="containers">
 <div class="buycontainer">
   <h1 class="headings">to buy:</h1>
-    <form class="forms">
-      <input type="text" name="item"><button>add</button>
-    </form>
-    <ul class="buylist">
-      <li>catnip</li>
-      <li>cat food</li>
-      <li>cat brush</li>
+      <input type="text" id="buy" name="item"><button id="buyButton">add</button>
+    <ul class="buyList">
+      <li>catnip<br><button class="remove">remove</button><button class="bought">bought!</button></li>
+      <li>cat food<br><button class="remove">remove</button><button class="bought">bought!</button></li>
+      <li>cat brush<br><button class="remove">remove</button><button class="bought">bought!</button></li>
     </ul>
 </div>
 <div class="boughtcontainer">
   <h1 class="headings">bought:</h1>
-    <form class="forms">
-      <input type="text" name="item"><button>add</button>
-    </form>
-    <ul class="boughtlist">
-      <li>cat bed</li>
+      <input type="text" id="bought" name="item"><button id="boughtButton">add</button>
+    <ul class="boughtList">
+      <li>cat bed<button class="remove">remove</button><button class="buyAgain">buy again!</button></li>
     </ul>
   </div>
 </div>
 <img src="shopping-44640_960_720.png"></img>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

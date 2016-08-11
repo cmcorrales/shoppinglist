@@ -1,8 +1,9 @@
+
 html {
   background-color: #89bdd3
 }
 img {
-    background-size: cover;
+  background-size: cover;
 }
 h1 {
   font-family: 'quicksand', sans-serif;
@@ -33,6 +34,8 @@ h1 {
   padding: 15px;
   border: 40px;
   border-radius: 50px;
+  border-color: white;
+  border-width: medium;
 }
 .boughtcontainer {
   display: -webkit-flex;
@@ -48,6 +51,8 @@ h1 {
   padding: 15px;
   border: 20px;
   border-radius: 50px;
+  border-color: white;
+  border-width: medium;
 
 }
 .forms {
@@ -84,10 +89,50 @@ button:hover {
 ul {
   box-sizing: border-box;
   margin: 50px;
+  list-style-type: none;
 }
 li {
   box-sizing: border-box;
   margin:10px;
   font-family: 'quicksand';
   font-size: 30px
+}
+@media (max-width: 900px) {
+  .buycontainer {
+    margin-left: 137.5px;
+    margin-top: 12.5px;
+    margin-right: 50px;
+    align-items: center;
+    background-color: #ff80ab;
+    box-sizing: border-box;
+    padding: 12.5px;
+    border: 23.5px;
+    border-radius: 50px;
+    border-color: white;
+  }
+  .boughtcontainer {
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-top: 12.5px;
+    align-items: center;
+    background-color: #9ad3de;
+    box-sizing: border-box;
+    padding: 12.5px;
+    border: 23.5px;
+    border-radius: 50px;
+  }
+  h1 {
+    font-family: 'quicksand', sans-serif;
+    font-size: 50px;
+  }
+  button {
+    font-size: 8.75px
+    padding: 5px 9.375px 5px 9.375px;
+  }
+  li {
+    margin:6.25px;
+    font-size: 18.75px
+  }
+  ul {
+    margin: 31.25px;
 }
